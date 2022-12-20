@@ -23,6 +23,20 @@ Wrzesień = -0.07742069
 Październik = 1.165733399
 Listopad = -0.404186718
 Grudzień = 1.499708521
+#Pytania, zebranie wartosci dla kwota, oprocentowanie i rata
+print("""odpowiedz na 3 pytania aby wyliczyć wartość swojego pozostałego
+zadłużenia w każdym miesiącu przez 2 nasępne lata.""")
+print("1/3: Jaka jest kwota pożyczki w zł?")
+kwota = int(input())
+print("2/3: Wpisz wartość oprocentowania w procentach:")
+oprocentowanie = float(input())
+print("3/3: Wpisz kwotę obecnej raty w zł.")
+rata = int(input())
+#Podsumowanie
+print("""Pożyczona kwota to {} zł. Oprocentowanie wynosi {} %.
+Obecnie płacisz {} zł raty.""".format(kwota, oprocentowanie, rata))
+
+
 
 
 
